@@ -31,6 +31,9 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
+  "engines": {
+    "node": "18.20.3"
+  },
   "optionalDependencies": {
     "jquery": "3.7.0",
     "typescript": "5.0.4"
