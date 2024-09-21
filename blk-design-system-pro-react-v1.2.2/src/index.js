@@ -91,7 +91,7 @@ root.render(
       {/* <Route path="/invoice-page" element={<InvoicePage />} /> */}
       {/* <Route path="/checkout-page" element={<CheckoutPage />} /> */}
       {/* <Route path="/chat-page" element={<ChatPage />} /> */}
-      <Route path="/" element={<Navigate to="/presentation" replace />} />
+      {/* <Route path="/" element={<Navigate to="/presentation" replace />} /> */}
     </Routes>
   </BrowserRouter>
 );
