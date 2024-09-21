@@ -32,7 +32,7 @@ export default function Index() {
         <div className="squares square7" />
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">EYEX• PRO React</h1>
+            <h1 className="h1-seo">EYEX•</h1>
             <h3>All components</h3>
           </div>
         </Container>

@@ -66,7 +66,7 @@ export default function Navbars() {
                       <Row>
                         <Col className="collapse-brand" xs="6">
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            EYEX• <span>EYEX New Token</span>
+                            EYEX• <span>EYEX PAYMENT SYSTEM OF THE FUTURE</span>
                           </a>
                         </Col>
                         <Col className="collapse-close text-right" xs="6">
@@ -175,7 +175,7 @@ export default function Navbars() {
                       <Row>
                         <Col className="collapse-brand" xs="6">
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            EYEX• <span>PRO React</span>
+                            EYEX• <span></span>
                           </a>
                         </Col>
                         <Col className="collapse-close text-right" xs="6">
@@ -296,7 +296,7 @@ export default function Navbars() {
                     <Row>
                       <Col className="collapse-brand" xs="6">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          EYEX• <span>PRO React</span>
+                          EYEX• <span></span>
                         </a>
                       </Col>
                       <Col className="collapse-close text-right" xs="6">
@@ -363,7 +363,7 @@ export default function Navbars() {
                     <Row>
                       <Col className="collapse-brand" xs="6">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          EYEX• <span>PRO React</span>
+                          EYEX• <span></span>
                         </a>
                       </Col>
                       <Col className="collapse-close text-right" xs="6">
@@ -430,7 +430,7 @@ export default function Navbars() {
                     <Row>
                       <Col className="collapse-brand" xs="6">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          EYEX• <span>PRO React</span>
+                          EYEX• <span></span>
                         </a>
                       </Col>
                       <Col className="collapse-close text-right" xs="6">
@@ -497,7 +497,7 @@ export default function Navbars() {
                     <Row>
                       <Col className="collapse-brand" xs="6">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          EYEX• <span>PRO React</span>
+                          EYEX• <span></span>
                         </a>
                       </Col>
                       <Col className="collapse-close text-right" xs="6">
@@ -569,7 +569,7 @@ export default function Navbars() {
                     <Row>
                       <Col className="collapse-brand" xs="6">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          EYEX• <span>PRO React</span>
+                          EYEX• <span></span>
                         </a>
                       </Col>
                       <Col className="collapse-close text-right" xs="6">
@@ -642,7 +642,7 @@ export default function Navbars() {
                     <Row>
                       <Col className="collapse-brand" xs="6">
                         <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                          EYEX• <span>EYEX New Token</span>
+                          EYEX• <span>EYEX PAYMENT SYSTEM OF THE FUTURE</span>
                         </a>
                       </Col>
                       <Col className="collapse-close text-right" xs="6">

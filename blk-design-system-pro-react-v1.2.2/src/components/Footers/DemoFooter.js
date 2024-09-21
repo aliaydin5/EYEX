@@ -36,7 +36,7 @@ export default function DemoFooter() {
         <Container>
           <Row>
             <Col md="3">
-              <h1 className="title">EYEX• React</h1>
+              <h1 className="title">EYEX•</h1>
             </Col>
             <Col md="3" xs="6">
               <Nav>

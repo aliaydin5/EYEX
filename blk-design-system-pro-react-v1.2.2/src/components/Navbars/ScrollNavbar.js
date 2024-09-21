@@ -54,7 +54,7 @@ export default function ScrollNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip1995010466">
-              <span>EYEX•</span> TOKEN OF THE FUTURE
+              <span>EYEX•</span> PAYMENT SYSTEM OF THE FUTURE
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip1995010466">
               Designed and Coded by Creative Tim

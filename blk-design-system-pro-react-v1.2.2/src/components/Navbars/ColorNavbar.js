@@ -61,7 +61,7 @@ export default function ColorNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
-              <span>EYEX•</span> TOKEN OF THE FUTURE
+              <span>EYEX•</span> PAYMENT SYSTEM OF THE FUTURE
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip6619950104">
               Designed and Coded by Creative Tim
@@ -77,7 +77,7 @@ export default function ColorNavbar() {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    EYEX• <span>PRO React</span>
+                    EYEX• <span></span>
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
