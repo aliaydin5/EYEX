@@ -64,7 +64,7 @@ export default function ColorNavbar() {
               <span>EYEX•</span> PAYMENT SYSTEM OF THE FUTURE
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip6619950104">
-              Designed and Coded by Creative Tim
+            Designed and Coded by Bogazici Team
             </UncontrolledTooltip>
             <button className="navbar-toggler" id="navigation">
               <span className="navbar-toggler-bar bar1" />
@@ -91,7 +91,7 @@ export default function ColorNavbar() {
               <UncontrolledDropdown nav>
                 <DropdownToggle caret color="default" nav>
                   <i className="fa fa-cogs d-lg-none d-xl-none" />
-                  Getting started
+                  Overview
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
                   <DropdownItem to="/index" tag={Link}>
@@ -108,7 +108,7 @@ export default function ColorNavbar() {
               <UncontrolledDropdown nav>
                 <DropdownToggle caret color="default" nav>
                   <i aria-hidden={true} className="tim-icons icon-paper" />
-                  <p>Sections</p>
+                  <p>Features</p>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem to="/sections#headers" tag={Link}>
@@ -117,7 +117,7 @@ export default function ColorNavbar() {
                   </DropdownItem>
                   <DropdownItem to="/sections#features" tag={Link}>
                     <i className="tim-icons icon-settings" />
-                    Features
+                    Payment-Features
                   </DropdownItem>
                   <DropdownItem to="/sections#blogs" tag={Link}>
                     <i className="tim-icons icon-align-left-2" />
@@ -125,11 +125,11 @@ export default function ColorNavbar() {
                   </DropdownItem>
                   <DropdownItem to="/sections#teams" tag={Link}>
                     <i className="tim-icons icon-user-run" />
-                    Teams
+                    Security-Teams
                   </DropdownItem>
                   <DropdownItem to="/sections#projects" tag={Link}>
                     <i className="tim-icons icon-paper" />
-                    Projects
+                    System-Projects
                   </DropdownItem>
                   <DropdownItem to="/sections#pricing" tag={Link}>
                     <i className="tim-icons icon-money-coins" />
@@ -145,11 +145,11 @@ export default function ColorNavbar() {
                   </DropdownItem>
                   <DropdownItem to="/sections#tables" tag={Link}>
                     <i className="tim-icons icon-chart-bar-32" />
-                    Tables
+                    Data
                   </DropdownItem>
                   <DropdownItem to="/sections#accordion" tag={Link}>
                     <i className="tim-icons icon-paper" />
-                    Accordion
+                    Reporting
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -159,20 +159,20 @@ export default function ColorNavbar() {
                     aria-hidden={true}
                     className="tim-icons icon-book-bookmark"
                   />
-                  <p>Examples</p>
+                  <p>Performance-Metrics</p>
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem to="/about-us" tag={Link}>
                     <i className="tim-icons icon-bulb-63" />
-                    About-us
+                    Our Story
                   </DropdownItem>
                   <DropdownItem to="/blog-post" tag={Link}>
                     <i className="tim-icons icon-align-center" />
-                    Blog Post
+                    Articles
                   </DropdownItem>
                   <DropdownItem to="/blog-posts" tag={Link}>
                     <i className="tim-icons icon-chart-bar-32" />
-                    Blog Posts
+                    Latest Insights
                   </DropdownItem>
                   <DropdownItem to="/contact-us" tag={Link}>
                     <i className="tim-icons icon-square-pin" />
@@ -180,7 +180,7 @@ export default function ColorNavbar() {
                   </DropdownItem>
                   <DropdownItem to="/landing-page" tag={Link}>
                     <i className="tim-icons icon-paper" />
-                    Landing Page
+                    Landing
                   </DropdownItem>
                   <DropdownItem to="/pricing" tag={Link}>
                     <i className="tim-icons icon-coins" />
@@ -188,23 +188,23 @@ export default function ColorNavbar() {
                   </DropdownItem>
                   <DropdownItem to="/ecommerce" tag={Link}>
                     <i className="tim-icons icon-basket-simple" />
-                    Ecommerce Page
+                    Ecommerce 
                   </DropdownItem>
                   <DropdownItem to="/product-page" tag={Link}>
                     <i className="tim-icons icon-bag-16" />
-                    Product Page
+                    Product 
                   </DropdownItem>
                   <DropdownItem to="/profile-page" tag={Link}>
                     <i className="tim-icons icon-lock-circle" />
-                    Profile Page
+                    Profile 
                   </DropdownItem>
                   <DropdownItem to="/404-error" tag={Link}>
                     <i className="tim-icons icon-button-power" />
-                    404 Error Page
+                    404 Error 
                   </DropdownItem>
                   <DropdownItem to="/500-error" tag={Link}>
                     <i className="tim-icons icon-alert-circle-exc" />
-                    500 Error Page
+                    500 Error 
                   </DropdownItem>
                   <UncontrolledDropdown>
                     <DropdownToggle
@@ -228,24 +228,24 @@ export default function ColorNavbar() {
                       </DropdownItem>
                       <DropdownItem to="/login-page" tag={Link}>
                         <i className="tim-icons icon-tablet-2" />
-                        Login Page
+                        Login 
                       </DropdownItem>
                       <DropdownItem to="/register-page" tag={Link}>
                         <i className="tim-icons icon-laptop" />
-                        Register Page
+                        Register 
                       </DropdownItem>
                       <DropdownItem to="/reset-page" tag={Link}>
                         <i className="tim-icons icon-molecule-40" />
-                        Reset Page
+                        Reset 
                       </DropdownItem>
                       <DropdownItem to="/invoice-page" tag={Link}>
                         <i className="tim-icons icon-notes" />
-                        Invoice Page
+                        Invoice 
                       </DropdownItem>
-                      <DropdownItem to="/checkout-page" tag={Link}>
-                        <i className="tim-icons icon-basket-simple" />
-                        Checkout Page
-                      </DropdownItem>
+                      {/* <DropdownItem to="/checkout-page" tag={Link}> */}
+                        {/* <i className="tim-icons icon-basket-simple" /> */}
+                        {/* Checkout Page */}
+                      {/* </DropdownItem> */}
                       <DropdownItem to="/chat-page" tag={Link}>
                         <i className="tim-icons icon-email-85" />
                         Chat Page
@@ -262,7 +262,7 @@ export default function ColorNavbar() {
                   size="sm"
                   target="_blank"
                 >
-                  <p>Buy Now</p>
+                  <p>Try It Out</p>
                 </Button>
               </NavItem>
             </Nav>

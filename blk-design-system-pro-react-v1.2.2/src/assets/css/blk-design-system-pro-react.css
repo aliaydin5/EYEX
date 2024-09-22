@@ -19116,9 +19116,9 @@ html {
   width: 100%;
 }
 
-[class*="features-"],
-[class*="team-"],
-[class*="projects-"],
+[class*="payment-features-"],
+[class*="security-team-"],
+[class*="system-projects-"],
 [class*="pricing-"],
 [class*="testimonials-"],
 [class*="contactus-"] {

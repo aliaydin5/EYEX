@@ -93,9 +93,9 @@ export default function LandingPage() {
                   <span className="text-white">future </span>
                 </h1>
                 <p className="text-white mb-3">
-                The purpose of the EYEX token is to revolutionize payment systems by creating easy payment solutions. 
-                The EYEX token converts the iris pattern into a digital signature, creating a unique private key for each individual. 
-                This private key allows users to continue their transactions on the blockchain network....
+                The purpose of EYEX payment systems is to revolutionize payment systems by creating easy payment solutions. 
+                It generates a unique key for each individual by using biometric authentication through facial recognition systems. 
+                With this key, users can seamlessly continue their transactions, whether in banking systems or on the blockchain network.....
                 </p>
                 <div className="btn-wrapper mb-3">
                   <p className="category text-success d-inline">
