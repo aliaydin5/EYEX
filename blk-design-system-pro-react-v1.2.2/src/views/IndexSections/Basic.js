@@ -218,7 +218,7 @@ export default function Basic() {
               </Col>
               <Col md="1" sm="1">
                 <Button className="btn-icon btn-round" color="facebook">
-                  <i className="fab fa-facebook" />
+                  <i className="fab fa-" />
                 </Button>
               </Col>
               <Col md="1" sm="1">

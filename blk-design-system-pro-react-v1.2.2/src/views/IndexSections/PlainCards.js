@@ -36,7 +36,7 @@ export default function PlainCards() {
           <div className="title">
             <h3>Plain Cards</h3>
             <h3>
-              <small>Blog Cards</small>
+              <small> Cards</small>
             </h3>
           </div>
           {/* ********* PLAIN BLOG CARDS ********* */}

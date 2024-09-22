@@ -397,7 +397,7 @@ export default function Blogs() {
               </Col>
               <Col lg="3">
                 <Card
-                  className="card-blog card-background"
+                  className="card- card-background"
                   data-animation="zooming"
                 >
                   <div

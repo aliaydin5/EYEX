@@ -96,11 +96,11 @@ export default function ColorNavbar() {
                 <DropdownMenu className="dropdown-with-icons">
                   <DropdownItem to="/index" tag={Link}>
                     <i className="tim-icons icon-paper" />
-                    Components
+                    Feature-Overview
                   </DropdownItem>
                   <DropdownItem to="/presentation" tag={Link}>
                     <i className="tim-icons icon-bullet-list-67" />
-                    Presentation Page
+                    Product Demo
                   </DropdownItem>
                   
                 </DropdownMenu>
@@ -111,10 +111,10 @@ export default function ColorNavbar() {
                   <p>Features</p>
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem to="/sections#headers" tag={Link}>
-                    <i className="tim-icons icon-app" />
-                    Headers
-                  </DropdownItem>
+                  {/* <DropdownItem to="/sections#headers" tag={Link}> */}
+                    {/* <i className="tim-icons icon-app" /> */}
+                    {/* Headers */}
+                  {/* </DropdownItem> */}
                   <DropdownItem to="/sections#features" tag={Link}>
                     <i className="tim-icons icon-settings" />
                     Payment-Features

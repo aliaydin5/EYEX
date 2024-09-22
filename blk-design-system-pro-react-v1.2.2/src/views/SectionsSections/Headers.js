@@ -192,7 +192,7 @@ export default function Headers() {
                 <Nav className="nav" navbar>
                   <NavItem>
                     <NavLink
-                      href="https://twitter.com/CreativeTim"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-twitter" />
@@ -200,7 +200,7 @@ export default function Headers() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.facebook.com/CreativeTim"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-facebook-square" />
@@ -208,7 +208,7 @@ export default function Headers() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.instagram.com/CreativeTimOfficial"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-instagram" />
@@ -314,7 +314,7 @@ export default function Headers() {
                 <Nav className="nav navbar-right" navbar>
                   <NavItem>
                     <NavLink
-                      href="https://twitter.com/CreativeTim"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-twitter" />
@@ -322,7 +322,7 @@ export default function Headers() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.facebook.com/CreativeTim"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-facebook-square" />
@@ -330,7 +330,7 @@ export default function Headers() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.instagram.com/CreativeTimOfficial"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-instagram" />
@@ -682,7 +682,7 @@ export default function Headers() {
                   <Nav className="nav navbar-right" navbar>
                     <NavItem>
                       <NavLink
-                        href="https://twitter.com/CreativeTim"
+                        href=""
                         target="_blank"
                       >
                         <i className="fab fa-twitter" />
@@ -690,7 +690,7 @@ export default function Headers() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="https://www.facebook.com/CreativeTim"
+                        href=""
                         target="_blank"
                       >
                         <i className="fab fa-facebook-square" />
@@ -698,7 +698,7 @@ export default function Headers() {
                     </NavItem>
                     <NavItem>
                       <NavLink
-                        href="https://www.instagram.com/CreativeTimOfficial"
+                        href=""
                         target="_blank"
                       >
                         <i className="fab fa-instagram" />
@@ -909,7 +909,7 @@ export default function Headers() {
                 <Nav className="nav navbar-right" navbar>
                   <NavItem>
                     <NavLink
-                      href="https://twitter.com/CreativeTim"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-twitter" />
@@ -917,7 +917,7 @@ export default function Headers() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.facebook.com/CreativeTim"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-facebook-square" />
@@ -925,7 +925,7 @@ export default function Headers() {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.instagram.com/CreativeTimOfficial"
+                      href=""
                       target="_blank"
                     >
                       <i className="fab fa-instagram" />

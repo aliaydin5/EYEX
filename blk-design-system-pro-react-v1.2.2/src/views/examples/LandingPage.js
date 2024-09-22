@@ -248,8 +248,7 @@ export default function LandingPage() {
                 <Col md="6">
                   <div className="pl-md-5">
                     <h1>
-                      Large <br />
-                      Achivements
+                    Innovations <br />
                     </h1>
                     <p>
                     The EYEX token dynamically calculates inflation based on users' actions and utilizes 
@@ -258,9 +257,10 @@ export default function LandingPage() {
                     </p>
                     <br />
                     <p>
-                      When, while the lovely valley teems with vapour around me,
-                      and the meridian sun strikes the upper surface of the
-                      impenetrable foliage of my trees, and but a few stray.
+                    With the EYEX payment method, users will be able to select their payment options from the mobile application, and they will be able to process transactions either through traditional banking systems or on the blockchain network.
+
+
+                      
                     </p>
                     <br />
                     <a
@@ -296,7 +296,7 @@ export default function LandingPage() {
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-                <h1 className="text-center">Your best benefit</h1>
+                <h1 className="text-center">Benefits</h1>
                 <Row className="row-grid justify-content-center">
                   <Col lg="3">
                     <div className="info">
@@ -306,9 +306,7 @@ export default function LandingPage() {
                       <h4 className="info-title">Low Commission</h4>
                       <hr className="line-primary" />
                       <p>
-                        Divide details about your work into parts. Write a few
-                        lines about each one. A paragraph describing a feature
-                        will.
+                      The EYEX payment system charges low fees for transactions.
                       </p>
                     </div>
                   </Col>
@@ -320,9 +318,7 @@ export default function LandingPage() {
                       <h4 className="info-title">High Incomes</h4>
                       <hr className="line-warning" />
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing feature will be a feature.
+                      The EYEX payment system will calculate real inflation using artificial intelligence based on data from the industry and will inform investors about which sectors will generate net profits, enabling them to achieve high profit margins.
                       </p>
                     </div>
                   </Col>
@@ -331,12 +327,10 @@ export default function LandingPage() {
                       <div className="icon icon-success">
                         <i className="tim-icons icon-single-02" />
                       </div>
-                      <h4 className="info-title">Verified People</h4>
+                      <h4 className="info-title">High-Security Transaction</h4>
                       <hr className="line-success" />
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing be enough.
+                      The EYEX payment system ensures the security of user data by hashing the data obtained using image processing technology with SHA-256.
                       </p>
                     </div>
                   </Col>
@@ -397,9 +391,9 @@ export default function LandingPage() {
                   <hr className="line-success" />
                   <h3>Awesome features</h3>
                   <p>
-                    The design system comes with three pre-built pages to help
-                    you get started faster. You can change the text and images
-                    and you're good to go.
+                  The EYEX payment method utilizes image processing technology, making it faster and reducing complexity compared to traditional payment methods.
+
+
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
@@ -408,7 +402,7 @@ export default function LandingPage() {
                           <i className="tim-icons icon-vector" />
                         </div>
                         <div className="ml-3">
-                          <h6>Carefully crafted components</h6>
+                          <h6>High-Performance Data Processing</h6>
                         </div>
                       </div>
                     </li>
@@ -418,7 +412,7 @@ export default function LandingPage() {
                           <i className="tim-icons icon-tap-02" />
                         </div>
                         <div className="ml-3">
-                          <h6>Amazing page examples</h6>
+                          <h6>High Scalability</h6>
                         </div>
                       </div>
                     </li>
@@ -428,7 +422,7 @@ export default function LandingPage() {
                           <i className="tim-icons icon-single-02" />
                         </div>
                         <div className="ml-3">
-                          <h6>Super friendly support team</h6>
+                          <h6>User-Friendly Software</h6>
                         </div>
                       </div>
                     </li>
@@ -482,7 +476,7 @@ export default function LandingPage() {
               <Col md="4">
                 <hr className="line-info" />
                 <h1>
-                  Choose the coin{" "}
+                  Use the payment network{" "}
                   <span className="text-info">that fits your needs</span>
                 </h1>
               </Col>
@@ -500,22 +494,22 @@ export default function LandingPage() {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Light Coin</h4>
-                        <span>Plan</span>
+                        <h4 className="text-uppercase">Bitcoin Network</h4>
+                        <span>Features</span>
                         <hr className="line-primary" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>50 messages</ListGroupItem>
-                        <ListGroupItem>100 emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
+                        <ListGroupItem>Low Commissions</ListGroupItem>
+                        <ListGroupItem>High Speed</ListGroupItem>
+                        <ListGroupItem>High Security</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button className="btn-simple" color="primary">
-                      Get plan
+                    Try It Out
                     </Button>
                   </CardFooter>
                 </Card>
@@ -532,22 +526,22 @@ export default function LandingPage() {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Dark Coin</h4>
-                        <span>Plan</span>
+                        <h4 className="text-uppercase">Ethereum Network</h4>
+                        <span>Features</span>
                         <hr className="line-success" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>150 messages</ListGroupItem>
-                        <ListGroupItem>1000 emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
+                      <ListGroupItem>Low Commissions</ListGroupItem>
+                      <ListGroupItem>High Speed</ListGroupItem>
+                      <ListGroupItem>High Security</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button className="btn-simple" color="success">
-                      Get plan
+                    Try It Out
                     </Button>
                   </CardFooter>
                 </Card>
@@ -564,22 +558,22 @@ export default function LandingPage() {
                   <CardBody>
                     <Row>
                       <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Bright Coin</h4>
-                        <span>Plan</span>
+                        <h4 className="text-uppercase">Banking Network</h4>
+                        <span>Features</span>
                         <hr className="line-info" />
                       </Col>
                     </Row>
                     <Row>
                       <ListGroup>
-                        <ListGroupItem>350 messages</ListGroupItem>
-                        <ListGroupItem>10K emails</ListGroupItem>
-                        <ListGroupItem>24/7 Support</ListGroupItem>
+                      <ListGroupItem>Low Commissions</ListGroupItem>
+                      <ListGroupItem>High Speed</ListGroupItem>
+                      <ListGroupItem>High Security</ListGroupItem>
                       </ListGroup>
                     </Row>
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button className="btn-simple" color="info">
-                      Get plan
+                    Try It Out
                     </Button>
                   </CardFooter>
                 </Card>
