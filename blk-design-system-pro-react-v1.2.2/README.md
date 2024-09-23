@@ -283,10 +283,10 @@ We use GitHub Issues as the official bug tracker for the Blk• Design System PR
 
 ### Social Media
 
-Twitter: <https://twitter.com/CreativeTim?ref=creativetim>
+Twitter: <>
 
-Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
+Facebook: <>
 
-Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
+Dribbble: <>
 
-Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+Instagram: <>

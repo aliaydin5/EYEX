@@ -116,7 +116,7 @@ export default function LandingPage() {
                     <Button
                       className="btn-icon btn-simple btn-round mr-1"
                       color="neutral"
-                      href="#pablo"
+                      href=""
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-twitter" />
@@ -124,7 +124,7 @@ export default function LandingPage() {
                     <Button
                       className="btn-icon btn-simple btn-round mr-1"
                       color="neutral"
-                      href="#pablo"
+                      href=""
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-dribbble" />
@@ -132,7 +132,7 @@ export default function LandingPage() {
                     <Button
                       className="btn-icon btn-simple btn-round"
                       color="neutral"
-                      href="#pablo"
+                      href=""
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-facebook" />

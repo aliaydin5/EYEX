@@ -66,7 +66,7 @@ export default function DemoFooter() {
               <Nav>
                 <NavItem>
                   <NavLink
-                    href="https://creative-tim.com/contact-us?ref=blkdspr-footer"
+                    href=""
                     target="_blank"
                   >
                     Contact Us
@@ -74,7 +74,7 @@ export default function DemoFooter() {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    href="https://creative-tim.com/about-us?ref=blkdspr-footer"
+                    href=""
                     target="_blank"
                   >
                     About Us
@@ -82,7 +82,7 @@ export default function DemoFooter() {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    href="http://creative-tim.com/blog?ref=blkdspr-footer"
+                    href=""
                     target="_blank"
                   >
                     Blog
@@ -90,7 +90,7 @@ export default function DemoFooter() {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    href="https://opensource.org/licenses/MIT?ref=blkdspr-footer"
+                    href=""
                     target="_blank"
                   >
                     License
@@ -104,7 +104,7 @@ export default function DemoFooter() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://twitter.com/creativetim"
+                  href=""
                   id="tooltip39661217"
                   target="_blank"
                 >
@@ -116,7 +116,7 @@ export default function DemoFooter() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple ml-1"
                   color="default"
-                  href="https://www.facebook.com/creativetim"
+                  href=""
                   id="tooltip206037619"
                   target="_blank"
                 >
@@ -128,7 +128,7 @@ export default function DemoFooter() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple ml-1"
                   color="default"
-                  href="https://dribbble.com/creativetim"
+                  href=""
                   id="tooltip750293512"
                   target="_blank"
                 >

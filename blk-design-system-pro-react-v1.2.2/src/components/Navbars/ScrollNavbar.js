@@ -54,7 +54,7 @@ export default function ScrollNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip1995010466">
-              <span>EYEX•</span> PAYMENT SYSTEM OF THE FUTURE
+              <span>EYEX•</span> Next-Generation Payment Solutions
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip1995010466">
               Designed and Coded by Creative Tim
@@ -227,14 +227,14 @@ export default function ScrollNavbar() {
                     <i className="tim-icons icon-lock-circle" />
                     Profile Page
                   </DropdownItem>
-                  <DropdownItem to="/404-error" tag={Link}>
-                    <i className="tim-icons icon-button-power" />
-                    404 Error Page
-                  </DropdownItem>
-                  <DropdownItem to="/500-error" tag={Link}>
-                    <i className="tim-icons icon-alert-circle-exc" />
-                    500 Error Page
-                  </DropdownItem>
+                  {/* <DropdownItem to="/404-error" tag={Link}> */}
+                    {/* <i className="tim-icons icon-button-power" /> */}
+                    {/* 404 Error Page */}
+                  {/* </DropdownItem> */}
+                  {/* <DropdownItem to="/500-error" tag={Link}> */}
+                    {/* <i className="tim-icons icon-alert-circle-exc" /> */}
+                    {/* 500 Error Page */}
+                  {/* </DropdownItem> */}
                   <UncontrolledDropdown>
                     <DropdownToggle
                       caret

@@ -61,7 +61,7 @@ export default function ColorNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
-              <span>EYEX•</span> PAYMENT SYSTEM OF THE FUTURE
+              <span>EYEX•</span> Next-Generation Payment Solutions
             </NavbarBrand>
             <UncontrolledTooltip delay={0} target="tooltip6619950104">
             Designed and Coded by Bogazici Team
@@ -198,14 +198,14 @@ export default function ColorNavbar() {
                     <i className="tim-icons icon-lock-circle" />
                     Profile 
                   </DropdownItem>
-                  <DropdownItem to="/404-error" tag={Link}>
-                    <i className="tim-icons icon-button-power" />
-                    404 Error 
-                  </DropdownItem>
-                  <DropdownItem to="/500-error" tag={Link}>
-                    <i className="tim-icons icon-alert-circle-exc" />
-                    500 Error 
-                  </DropdownItem>
+                  {/* <DropdownItem to="/404-error" tag={Link}> */}
+                    {/* <i className="tim-icons icon-button-power" /> */}
+                    {/* 404 Error  */}
+                  {/* </DropdownItem> */}
+                  {/* <DropdownItem to="/500-error" tag={Link}> */}
+                    {/* <i className="tim-icons icon-alert-circle-exc" /> */}
+                    {/* 500 Error  */}
+                  {/* </DropdownItem> */}
                   <UncontrolledDropdown>
                     <DropdownToggle
                       caret
