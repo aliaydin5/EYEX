@@ -251,7 +251,7 @@ export default function LandingPage() {
                     Innovations <br />
                     </h1>
                     <p>
-                    The EYEX token dynamically calculates inflation based on users' actions and utilizes 
+                    The EYEX payment systems dynamically calculates inflation based on users' actions and utilizes 
                     artificial intelligence to determine which sector yields the highest returns.
                      It then guides users towards that sector.
                     </p>
