@@ -1,43 +1,21 @@
-/*!
-
-=========================================================
-* BLK Design System PRO React - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-// react plugin used to create charts
-import { Line } from "react-chartjs-2";
-
-// reactstrap components
 import {
   Button,
   Card,
-  CardHeader,
   CardBody,
-  CardFooter,
   CardTitle,
-  ListGroupItem,
-  ListGroup,
   Container,
   Row,
   Col,
 } from "reactstrap";
 
-// core components
 import ColorNavbar from "components/Navbars/ColorNavbar.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
-import { chartExample1 } from "variables/charts.js";
+import canvas1_3 from "assets/img/canvas-1-3.png";
+import canvas1_9 from "assets/img/canvas-1-9.png";
+import canvas2_5 from "assets/img/canvas-2-5.png";
+import canvas2_10 from "assets/img/canvas-2-10.png";
 
 export default function LandingPage() {
   const wrapper = React.useRef(null);
@@ -50,288 +28,217 @@ export default function LandingPage() {
       document.body.classList.remove("landing-page");
     };
   }, []);
+
   return (
     <>
       <ColorNavbar />
       <div className="wrapper" ref={wrapper}>
+
+        {/* ── Hero ── */}
         <div className="page-header">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/blob.png")}
-          />
-          <img
-            alt="..."
-            className="path2"
-            src={require("assets/img/path2.png")}
-          />
-          <img
-            alt="..."
-            className="shapes triangle"
-            src={require("assets/img/triunghiuri.png")}
-          />
-          <img
-            alt="..."
-            className="shapes wave"
-            src={require("assets/img/waves.png")}
-          />
-          <img
-            alt="..."
-            className="shapes squares"
-            src={require("assets/img/patrat.png")}
-          />
-          <img
-            alt="..."
-            className="shapes circle"
-            src={require("assets/img/cercuri.png")}
-          />
+          <img alt="" className="path"    src={require("assets/img/blob.png")} />
+          <img alt="" className="path2"   src={require("assets/img/path2.png")} />
+          <img alt="" className="shapes triangle" src={require("assets/img/triunghiuri.png")} />
+          <img alt="" className="shapes wave"     src={require("assets/img/waves.png")} />
+          <img alt="" className="shapes squares"  src={require("assets/img/patrat.png")} />
+          <img alt="" className="shapes circle"   src={require("assets/img/cercuri.png")} />
           <Container>
             <Row className="row-grid justify-content-between align-items-center text-left">
               <Col lg="6" md="6">
                 <h1 className="text-white">
-                The payment tool of the <br />
-                  <span className="text-white">future </span>
+                  Connect. Share.<br />
+                  <span className="text-info">Live.</span>
                 </h1>
                 <p className="text-white mb-3">
-                The purpose of EYEX payment systems is to revolutionize payment systems by creating easy payment solutions. 
-                It generates a unique key for each individual by using biometric authentication through facial recognition systems. 
-                With this key, users can seamlessly continue their transactions, whether in banking systems or on the blockchain network.....
+                  Aurea is the next-generation social media app that brings people closer.
+                  Share moments with Blur Posts, connect with loved ones, and go live — all in one place.
                 </p>
-                <div className="btn-wrapper mb-3">
-                  <p className="category text-success d-inline">
-                    From 9.99%/mo
-                  </p>
-                  <Button
-                    className="btn-link"
-                    color="success"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    size="sm"
-                  >
-                    <i className="tim-icons icon-minimal-right" />
-                  </Button>
-                </div>
                 <div className="btn-wrapper">
-                  <div className="button-container">
-                    <Button
-                      className="btn-icon btn-simple btn-round mr-1"
-                      color="neutral"
-                      href=""
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-icon btn-simple btn-round mr-1"
-                      color="neutral"
-                      href=""
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-dribbble" />
-                    </Button>
-                    <Button
-                      className="btn-icon btn-simple btn-round"
-                      color="neutral"
-                      href=""
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook" />
-                    </Button>
-                  </div>
+                  <Button
+                    className="btn-round mr-2"
+                    color="info"
+                    href="https://apps.apple.com/tr/app/aurea-ai-social-platform/id6755821747?l=tr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="lg"
+                  >
+                    <i className="fab fa-apple mr-2" />
+                    App Store
+                  </Button>
+                  <Button
+                    className="btn-round btn-simple"
+                    color="info"
+                    href="https://play.google.com/store/apps/details?id=com.socialAi.social_app&pcampaignid=web_share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="lg"
+                  >
+                    <i className="fab fa-google-play mr-2" />
+                    Google Play
+                  </Button>
                 </div>
               </Col>
               <Col lg="4" md="5">
                 <img
-                  alt="..."
+                  alt="Aurea App"
                   className="img-fluid"
-                  src={require("assets/img/etherum.png")}
+                  src={canvas1_9}
+                  style={{ borderRadius: "24px", maxHeight: "520px", objectFit: "contain" }}
                 />
               </Col>
             </Row>
           </Container>
         </div>
+
+        {/* ── Features ── */}
         <section className="section section-lg">
-          <section className="section">
-            <img
-              alt="..."
-              className="path"
-              src={require("assets/img/path4.png")}
-            />
-            <Container>
-              <Row className="row-grid justify-content-between">
-                <Col className="mt-lg-5" md="5">
-                  <Row>
-                    <Col className="px-2 py-2" lg="6" sm="12">
-                      <Card className="card-stats">
-                        <CardBody>
-                          <Row>
-                            <Col md="4" xs="5">
-                              <div className="icon-big text-center icon-warning">
-                                <i className="tim-icons icon-trophy text-warning" />
-                              </div>
-                            </Col>
-                            <Col md="8" xs="7">
-                              <div className="numbers">
-                                <CardTitle tag="p">3,237</CardTitle>
-                                <p />
-                                <p className="card-category">Awards</p>
-                              </div>
-                            </Col>
-                          </Row>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col className="px-2 py-2" lg="6" sm="12">
-                      <Card className="card-stats upper bg-default">
-                        <CardBody>
-                          <Row>
-                            <Col md="4" xs="5">
-                              <div className="icon-big text-center icon-warning">
-                                <i className="tim-icons icon-coins text-white" />
-                              </div>
-                            </Col>
-                            <Col md="8" xs="7">
-                              <div className="numbers">
-                                <CardTitle tag="p">3,653</CardTitle>
-                                <p />
-                                <p className="card-category">Commits</p>
-                              </div>
-                            </Col>
-                          </Row>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col className="px-2 py-2" lg="6" sm="12">
-                      <Card className="card-stats">
-                        <CardBody>
-                          <Row>
-                            <Col md="4" xs="5">
-                              <div className="icon-big text-center icon-warning">
-                                <i className="tim-icons icon-gift-2 text-info" />
-                              </div>
-                            </Col>
-                            <Col md="8" xs="7">
-                              <div className="numbers">
-                                <CardTitle tag="p">593</CardTitle>
-                                <p />
-                                <p className="card-category">Presents</p>
-                              </div>
-                            </Col>
-                          </Row>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                    <Col className="px-2 py-2" lg="6" sm="12">
-                      <Card className="card-stats">
-                        <CardBody>
-                          <Row>
-                            <Col md="4" xs="5">
-                              <div className="icon-big text-center icon-warning">
-                                <i className="tim-icons icon-credit-card text-success" />
-                              </div>
-                            </Col>
-                            <Col md="8" xs="7">
-                              <div className="numbers">
-                                <CardTitle tag="p">10,783</CardTitle>
-                                <p />
-                                <p className="card-category">Forks</p>
-                              </div>
-                            </Col>
-                          </Row>
-                        </CardBody>
-                      </Card>
-                    </Col>
-                  </Row>
-                </Col>
-                <Col md="6">
-                  <div className="pl-md-5">
-                    <h1>
-                    Innovations <br />
-                    </h1>
-                    <p>
-                    The EYEX payment systems dynamically calculates inflation based on users' actions and utilizes 
-                    artificial intelligence to determine which sector yields the highest returns.
-                     It then guides users towards that sector.
-                    </p>
-                    <br />
-                    <p>
-                    With the EYEX payment method, users will be able to select their payment options from the mobile application, and they will be able to process transactions either through traditional banking systems or on the blockchain network.
+          <img alt="" className="path" src={require("assets/img/path4.png")} />
+          <Container>
+            <Row className="justify-content-center mb-5">
+              <Col lg="8" className="text-center">
+                <h2>Everything you love, in one app</h2>
+                <p className="description">
+                  Aurea brings together the best of social media — share posts, go live, connect with close ones.
+                </p>
+              </Col>
+            </Row>
 
-
-                      
-                    </p>
-                    <br />
-                    <a
-                      className="font-weight-bold text-info mt-5"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      Show all{" "}
-                      <i className="tim-icons icon-minimal-right text-info" />
-                    </a>
+            <Row className="row-grid align-items-center mb-5">
+              <Col md="5">
+                <img
+                  alt="Share What Matters"
+                  className="img-fluid"
+                  src={canvas1_9}
+                  style={{ borderRadius: "24px" }}
+                />
+              </Col>
+              <Col md="7">
+                <div className="info info-horizontal px-md-4">
+                  <div className="icon icon-info">
+                    <i className="tim-icons icon-camera-18" />
                   </div>
-                </Col>
-              </Row>
-            </Container>
-          </section>
+                  <div className="description">
+                    <h3 className="info-title">Your World — Share What Matters</h3>
+                    <p>
+                      Post photos and videos to your feed. Our unique <strong>Blur Post</strong> feature keeps your content hidden until it reaches 98+ likes — build suspense, earn reveals.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+
+            <Row className="row-grid align-items-center mb-5 flex-row-reverse">
+              <Col md="5">
+                <img
+                  alt="All Your Dates"
+                  className="img-fluid"
+                  src={canvas1_3}
+                  style={{ borderRadius: "24px" }}
+                />
+              </Col>
+              <Col md="7">
+                <div className="info info-horizontal px-md-4">
+                  <div className="icon icon-warning">
+                    <i className="tim-icons icon-heart-2" />
+                  </div>
+                  <div className="description">
+                    <h3 className="info-title">All Your Dates in One App</h3>
+                    <p>
+                      Meet new people, manage connections, and keep all your dates organised in a single place. Dating reimagined for the modern world.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+
+            <Row className="row-grid align-items-center mb-5">
+              <Col md="5">
+                <img
+                  alt="Go Live"
+                  className="img-fluid"
+                  src={canvas2_5}
+                  style={{ borderRadius: "24px" }}
+                />
+              </Col>
+              <Col md="7">
+                <div className="info info-horizontal px-md-4">
+                  <div className="icon icon-danger">
+                    <i className="tim-icons icon-video-66" />
+                  </div>
+                  <div className="description">
+                    <h3 className="info-title">Go Live — Stories That Inspire</h3>
+                    <p>
+                      Broadcast live to your followers and share Au Stories that disappear after 24 hours. Connect with your audience in real-time, every time.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+
+            <Row className="row-grid align-items-center flex-row-reverse">
+              <Col md="5">
+                <img
+                  alt="Your Person"
+                  className="img-fluid"
+                  src={canvas2_10}
+                  style={{ borderRadius: "24px" }}
+                />
+              </Col>
+              <Col md="7">
+                <div className="info info-horizontal px-md-4">
+                  <div className="icon icon-success">
+                    <i className="tim-icons icon-single-02" />
+                  </div>
+                  <div className="description">
+                    <h3 className="info-title">Your Person — Always Close</h3>
+                    <p>
+                      Add your closest people as <strong>Partner</strong>, <strong>Family</strong>, or <strong>Friend</strong> and stay always connected with those who matter most.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
         </section>
+
+        {/* ── Stats ── */}
         <section className="section section-lg">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/path4.png")}
-          />
-          <img
-            alt="..."
-            className="path2"
-            src={require("assets/img/path5.png")}
-          />
-          <img
-            alt="..."
-            className="path3"
-            src={require("assets/img/path2.png")}
-          />
+          <img alt="" className="path"  src={require("assets/img/path4.png")} />
+          <img alt="" className="path2" src={require("assets/img/path5.png")} />
+          <img alt="" className="path3" src={require("assets/img/path2.png")} />
           <Container>
             <Row className="justify-content-center">
               <Col lg="12">
-                <h1 className="text-center">Benefits</h1>
-                <Row className="row-grid justify-content-center">
-                  <Col lg="3">
+                <h1 className="text-center">Join the Aurea Community</h1>
+                <Row className="row-grid justify-content-center mt-4">
+                  <Col lg="3" className="text-center">
                     <div className="info">
                       <div className="icon icon-primary">
-                        <i className="tim-icons icon-money-coins" />
-                      </div>
-                      <h4 className="info-title">Low Commission</h4>
-                      <hr className="line-primary" />
-                      <p>
-                      The EYEX payment system charges low fees for transactions.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="3">
-                    <div className="info">
-                      <div className="icon icon-warning">
-                        <i className="tim-icons icon-chart-pie-36" />
-                      </div>
-                      <h4 className="info-title">High Incomes</h4>
-                      <hr className="line-warning" />
-                      <p>
-                      The EYEX payment system will calculate real inflation using artificial intelligence based on data from the industry and will inform investors about which sectors will generate net profits, enabling them to achieve high profit margins.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="3">
-                    <div className="info">
-                      <div className="icon icon-success">
                         <i className="tim-icons icon-single-02" />
                       </div>
-                      <h4 className="info-title">High-Security Transaction</h4>
+                      <h4 className="info-title">10K+</h4>
+                      <hr className="line-primary" />
+                      <p>Active Users</p>
+                    </div>
+                  </Col>
+                  <Col lg="3" className="text-center">
+                    <div className="info">
+                      <div className="icon icon-warning">
+                        <i className="tim-icons icon-camera-18" />
+                      </div>
+                      <h4 className="info-title">2M+</h4>
+                      <hr className="line-warning" />
+                      <p>Posts Shared Daily</p>
+                    </div>
+                  </Col>
+                  <Col lg="3" className="text-center">
+                    <div className="info">
+                      <div className="icon icon-success">
+                        <i className="tim-icons icon-heart-2" />
+                      </div>
+                      <h4 className="info-title">10M+</h4>
                       <hr className="line-success" />
-                      <p>
-                      The EYEX payment system ensures the security of user data by hashing the data obtained using image processing technology with SHA-256.
-                      </p>
+                      <p>Connections Made</p>
                     </div>
                   </Col>
                 </Row>
@@ -339,38 +246,25 @@ export default function LandingPage() {
             </Row>
           </Container>
         </section>
+
+        {/* ── Social Proof Cards ── */}
         <section className="section section-lg section-safe">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/path5.png")}
-          />
+          <img alt="" className="path" src={require("assets/img/path5.png")} />
           <Container>
-            <Row className="row-grid justify-content-between">
-              <Col md="5">
+            <Row className="row-grid justify-content-between align-items-center">
+              <Col md="4">
                 <img
-                  alt="..."
+                  alt="Aurea Close Ones"
                   className="img-fluid floating"
-                  src={require("assets/img/chester-wade.jpg")}
+                  src={canvas2_10}
+                  style={{ borderRadius: "24px" }}
                 />
-                <Card className="card-stats bg-danger">
+                <Card className="card-stats bg-info mt-3">
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">100%</CardTitle>
-                        <p className="card-category text-white">Safe</p>
-                      </div>
-                    </div>
-                  </CardBody>
-                </Card>
-                <Card className="card-stats bg-info">
-                  <CardBody>
-                    <div className="justify-content-center">
-                      <div className="numbers">
-                        <CardTitle tag="p">573 K</CardTitle>
-                        <p className="card-category text-white">
-                          Satisfied customers
-                        </p>
+                        <CardTitle tag="p">10K+</CardTitle>
+                        <p className="card-category text-white">Active Users</p>
                       </div>
                     </div>
                   </CardBody>
@@ -379,8 +273,8 @@ export default function LandingPage() {
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">10 425</CardTitle>
-                        <p className="card-category text-white">Business</p>
+                        <CardTitle tag="p">4.8 ★</CardTitle>
+                        <p className="card-category text-white">App Store Rating</p>
                       </div>
                     </div>
                   </CardBody>
@@ -389,40 +283,48 @@ export default function LandingPage() {
               <Col md="6">
                 <div className="px-md-5">
                   <hr className="line-success" />
-                  <h3>Awesome features</h3>
+                  <h3>Why people love Aurea</h3>
                   <p>
-                  The EYEX payment method utilizes image processing technology, making it faster and reducing complexity compared to traditional payment methods.
-
-
+                    Aurea combines the most beloved social features into a single, beautifully designed app — fast, intuitive, and built around the connections that matter.
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
                       <div className="d-flex align-items-center">
                         <div className="icon icon-success mb-2">
-                          <i className="tim-icons icon-vector" />
+                          <i className="tim-icons icon-check-2" />
                         </div>
                         <div className="ml-3">
-                          <h6>High-Performance Data Processing</h6>
+                          <h6>Unique Blur Post — content unlocked by likes</h6>
                         </div>
                       </div>
                     </li>
                     <li className="py-2">
                       <div className="d-flex align-items-center">
                         <div className="icon icon-success mb-2">
-                          <i className="tim-icons icon-tap-02" />
+                          <i className="tim-icons icon-check-2" />
                         </div>
                         <div className="ml-3">
-                          <h6>High Scalability</h6>
+                          <h6>Live Streaming &amp; Au Stories</h6>
                         </div>
                       </div>
                     </li>
                     <li className="py-2">
                       <div className="d-flex align-items-center">
                         <div className="icon icon-success mb-2">
-                          <i className="tim-icons icon-single-02" />
+                          <i className="tim-icons icon-check-2" />
                         </div>
                         <div className="ml-3">
-                          <h6>User-Friendly Software</h6>
+                          <h6>Close Ones — Partner, Family, Friend</h6>
+                        </div>
+                      </div>
+                    </li>
+                    <li className="py-2">
+                      <div className="d-flex align-items-center">
+                        <div className="icon icon-success mb-2">
+                          <i className="tim-icons icon-check-2" />
+                        </div>
+                        <div className="ml-3">
+                          <h6>Dating &amp; Connections in One Place</h6>
                         </div>
                       </div>
                     </li>
@@ -432,155 +334,47 @@ export default function LandingPage() {
             </Row>
           </Container>
         </section>
-        <section className="section section-lg">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/path4.png")}
-          />
-          <img
-            alt="..."
-            className="path2"
-            src={require("assets/img/path2.png")}
-          />
-          <Col md="12">
-            <Card className="card-chart card-plain">
-              <CardHeader>
-                <Row>
-                  <Col className="text-left" sm="6">
-                    <hr className="line-info" />
-                    <h5 className="card-category">Total Investments</h5>
-                    <CardTitle tag="h2">Performance</CardTitle>
-                  </Col>
-                </Row>
-              </CardHeader>
-              <CardBody>
-                <div className="chart-area">
-                  <Line
-                    data={chartExample1.data}
-                    options={chartExample1.options}
-                  />
-                </div>
-              </CardBody>
-            </Card>
-          </Col>
-        </section>
-        <section className="section section-lg section-coins">
-          <img
-            alt="..."
-            className="path"
-            src={require("assets/img/path3.png")}
-          />
+
+        {/* ── Download CTA ── */}
+        <section className="section section-lg" id="download">
+          <img alt="" className="path"  src={require("assets/img/path4.png")} />
+          <img alt="" className="path2" src={require("assets/img/path2.png")} />
           <Container>
-            <Row>
-              <Col md="4">
-                <hr className="line-info" />
-                <h1>
-                  Use the payment network{" "}
-                  <span className="text-info">that fits your needs</span>
-                </h1>
-              </Col>
-            </Row>
-            <Row>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/bitcoin.png")}
-                    />
-                  </CardHeader>
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Bitcoin Network</h4>
-                        <span>Features</span>
-                        <hr className="line-primary" />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                        <ListGroupItem>Low Commissions</ListGroupItem>
-                        <ListGroupItem>High Speed</ListGroupItem>
-                        <ListGroupItem>High Security</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button className="btn-simple" color="primary">
-                    Try It Out
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/etherum.png")}
-                    />
-                  </CardHeader>
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Ethereum Network</h4>
-                        <span>Features</span>
-                        <hr className="line-success" />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                      <ListGroupItem>Low Commissions</ListGroupItem>
-                      <ListGroupItem>High Speed</ListGroupItem>
-                      <ListGroupItem>High Security</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button className="btn-simple" color="success">
-                    Try It Out
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-coin card-plain">
-                  <CardHeader>
-                    <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      src={require("assets/img/ripp.png")}
-                    />
-                  </CardHeader>
-                  <CardBody>
-                    <Row>
-                      <Col className="text-center" md="12">
-                        <h4 className="text-uppercase">Banking Network</h4>
-                        <span>Features</span>
-                        <hr className="line-info" />
-                      </Col>
-                    </Row>
-                    <Row>
-                      <ListGroup>
-                      <ListGroupItem>Low Commissions</ListGroupItem>
-                      <ListGroupItem>High Speed</ListGroupItem>
-                      <ListGroupItem>High Security</ListGroupItem>
-                      </ListGroup>
-                    </Row>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button className="btn-simple" color="info">
-                    Try It Out
-                    </Button>
-                  </CardFooter>
-                </Card>
+            <Row className="justify-content-center text-center">
+              <Col lg="8">
+                <h1>Ready to join Aurea?</h1>
+                <p className="description mb-5">
+                  Download the app and start sharing, connecting, and living your story today. Available on iOS and Android.
+                </p>
+                <div className="btn-wrapper">
+                  <Button
+                    className="btn-round mr-3"
+                    color="info"
+                    size="lg"
+                    href="https://apps.apple.com/tr/app/aurea-ai-social-platform/id6755821747?l=tr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-apple mr-2" />
+                    Download on the App Store
+                  </Button>
+                  <Button
+                    className="btn-round btn-simple"
+                    color="info"
+                    size="lg"
+                    href="https://play.google.com/store/apps/details?id=com.socialAi.social_app&pcampaignid=web_share"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fab fa-google-play mr-2" />
+                    Get it on Google Play
+                  </Button>
+                </div>
               </Col>
             </Row>
           </Container>
         </section>
+
         <DemoFooter />
       </div>
     </>
